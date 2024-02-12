@@ -1,4 +1,5 @@
 "use client"
+import Hero from "@/components/Hero";
 import MobileNav from "@/components/MobileNav";
 import Nav from "@/components/Nav";
 import Image from "next/image";
@@ -13,6 +14,8 @@ export default function Home() {
     <div>
       <MobileNav nav={nav} closeNav={closeNav}/>
       <Nav openNav={openNav}/>
+      {/* Hero section */}
+      <Hero/>   
     </div>
    </div>
   );
