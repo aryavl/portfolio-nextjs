@@ -1,4 +1,5 @@
 "use client"
+import About from "@/components/About";
 import Hero from "@/components/Hero";
 import MobileNav from "@/components/MobileNav";
 import Nav from "@/components/Nav";
@@ -16,6 +17,10 @@ export default function Home() {
       <Nav openNav={openNav}/>
       {/* Hero section */}
       <Hero/>   
+      <div className="relative z-[30]">
+        {/* About */}
+        <About/>
+      </div>
     </div>
    </div>
   );

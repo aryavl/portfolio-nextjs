@@ -25,3 +25,7 @@
   background-clip: text;
   color: transparent;
 }
+.gradient-bg{
+  background: linear-gradient(to right,#f19ec1, rgb(192,132,252) );
+
+}
