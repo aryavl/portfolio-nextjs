@@ -29,3 +29,15 @@
   background: linear-gradient(to right,#f19ec1, rgb(192,132,252) );
 
 }
+.heading{
+  @apply text-center text-white text-[28px] sm:text-[33px] md:text-[45px] font-bold 
+}
+.gradient-blue{
+  background: linear-gradient(to right,#1f0568,#5f35cf, #db4986 );
+}
+.gradient-orange{
+  background: linear-gradient(to right,#d86609,#cf9135, #db4986 );
+}
+.gradient-red{
+  background: linear-gradient(to right,#750909,#cf3535, #db4986 );
+}
