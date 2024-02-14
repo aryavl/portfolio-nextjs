@@ -4,6 +4,7 @@ import Hero from "@/components/Hero";
 import MobileNav from "@/components/MobileNav";
 import Nav from "@/components/Nav";
 import Services from "@/components/Services";
+import Skills from "@/components/Skills";
 import Image from "next/image";
 import { useState } from "react";
 
@@ -22,6 +23,7 @@ export default function Home() {
         {/* About */}
         <About/>
         <Services/>
+        <Skills/>
       </div>
     </div>
    </div>
