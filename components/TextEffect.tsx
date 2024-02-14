@@ -1,30 +1,30 @@
-import { TypeAnimation } from 'react-type-animation';
+import { TypeAnimation } from "react-type-animation";
 
 const TextEffect = () => {
   return (
     <TypeAnimation
       sequence={[
         // Same substring at the start will only be typed out once, initially
-        'Frontend Developer',
+        "Frontend Developer",
         1500, // wait 1s before replacing "Mice" with "Hamsters"
-        'Backend Developer',
+        "Backend Developer",
         1500,
-        'Fullstack Developer',
+        "Fullstack Developer",
         1500,
-        'React Developer',
+        "React Developer",
         1500,
-        'MERN Stack Developer',
+        "MERN Stack Developer",
         1500,
-        'NextJS Developer',
+        "NextJS Developer",
         1500,
-        'Programmer',
+        "Programmer",
         1500,
       ]}
       wrapper="span"
-      className='text-[1.5rem] md:text-[2rem] text-white font-bold uppercase'
+      className="text-[1.5rem] md:text-[2rem] text-white font-bold uppercase"
       repeat={Infinity}
     />
   );
 };
 
-export default TextEffect
+export default TextEffect;
