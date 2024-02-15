@@ -1,5 +1,7 @@
 "use client";
 import About from "@/components/About";
+import ContactMe from "@/components/ContactMe";
+import Footer from "@/components/Footer";
 import Hero from "@/components/Hero";
 import MobileNav from "@/components/MobileNav";
 import Nav from "@/components/Nav";
@@ -26,6 +28,8 @@ export default function Home() {
           <Services />
           <Skills />
           <Projects/>
+          <ContactMe/>
+          <Footer/>
         </div>
       </div>
     </div>

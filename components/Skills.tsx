@@ -1,6 +1,6 @@
 import React from "react";
 import SkillsItem from "./SkillsItem";
-import SkillsLanguage from "./SkillsLanguage";
+
 
 const Skills = () => {
   return (
